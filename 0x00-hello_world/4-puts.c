@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- * main - Entery point
+ * main - Entry point
  * Description: 'the program's prints a sentence'
  * Retun: Always  0 (Success)
  */
