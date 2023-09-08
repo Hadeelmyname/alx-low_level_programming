@@ -1,8 +1,8 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
  * main is the entery point
  *
- * retun the value 0 is (Success)
+ * retun the value 0 (Success)
 */
 int main(void)
 {
