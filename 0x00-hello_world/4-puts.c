@@ -1,8 +1,8 @@
 #include<stdio.h>
 /**
- * main - Entry point
- * Description: 'the program's prints a sentence'
- * Retun: Always  0 (Success)
+ * main - prints "Programming is like building a multilingual
+ *  puzzle, followed by a newline
+ * Retun: Always 0
  */
 int main(void)
 {
