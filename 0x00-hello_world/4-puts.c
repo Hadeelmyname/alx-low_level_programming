@@ -1,9 +1,9 @@
 #include<stdio.h>
 /**
- * main is the entery point
+ * main - Entery point
  *
- * retun the value 0 (Success)
-*/
+ * Retun Always  0 (Success)
+ */
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
