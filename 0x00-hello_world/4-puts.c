@@ -1,8 +1,8 @@
 #include<stdio.h>
 /**
  * main - Entery point
- *
- * Retun Always  0 (Success)
+ * Description: 'the program's prints a sentence'
+ * Retun: Always  0 (Success)
  */
 int main(void)
 {
