@@ -1,9 +1,10 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - Print Alphabet
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	char n;
