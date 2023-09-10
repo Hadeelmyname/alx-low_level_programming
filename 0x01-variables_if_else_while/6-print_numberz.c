@@ -1,15 +1,17 @@
 #include <stdio.h>
 /**
- * main - Prints single digits of based 10 from 0
+ * main - Print single digits based 10 from 0
  *
- * Return: 0 Always (Success)
+ * Return: Always 0 (uccess)
  */
 int main(void)
 {
 	int a;
 
-	for (a = 0; a < 10; a++)
-	putchar(a);
+	for (a = 0; a <= 9; a++)
+	{
+	putchar(a + 48);
+	}
 	putchar('\n');
 	return (0);
 }
