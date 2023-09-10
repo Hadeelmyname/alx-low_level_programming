@@ -8,6 +8,7 @@
 int main(void)
 {
 	char lowercase, e, q;
+
 	e = 'e';
 	q = 'q';
 
