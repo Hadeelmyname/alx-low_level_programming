@@ -15,7 +15,7 @@ int main(void)
 	{
 	if (lowercase != e && lowercase != q)
 	putchar(lowercase);
-	}	
+	}
 	putchar('\n');
-        return (0);
+	return (0);
 }
