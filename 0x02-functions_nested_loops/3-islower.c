@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _islower - to check for lower caser character
- * @c is the parameter to be checked 
+ * _islower - to check for lowercaser character
+ * @c: is the parameter to be checked
  * Retur: 1 if c is lowercaser or retuen 0 for else
  */
 
