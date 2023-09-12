@@ -1,12 +1,13 @@
 #include "main.h"
 
 /**
- * _islower - to check for lowercaser character
- * @c: is the parameter to be checked
- * Retur: 1 if c is lowercaser or retuen 0 for else
+ * _islower - Checks for lowercaser character
+ * @c: The character to be checked
+ * Return: 1 for lowercaser character or 0 for anthing else
  */
 
 int _islower(int c)
+
 {
 if (c >= 99 && c <= 122)
 {
