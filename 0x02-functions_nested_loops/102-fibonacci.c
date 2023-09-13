@@ -6,9 +6,7 @@
 
 int main(void)
 {
-int a;
-int b;
-b = 0;
+int a, b = 0;
 
 while (a < 1024)
 {
