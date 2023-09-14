@@ -1,13 +1,14 @@
 #include "main.h"
 
 /**
- * main - Prints if the number is positive or negative
+ * main - test function that prints if the number is positive or negative
  *
- * Return 0 Always (Success)
+ * Return: 0 Always (Success)
  */
 
 int main(void)
 {
+
 int i;
 
 i = 0;
