@@ -1,9 +1,39 @@
 #include "main.h"
-#include <stdio.h>
 #include <stdlib.h>
 /**
- * main - check the cod for ALX School Students
- * Return: always 0
- *
+ * alloc_grid - nested loop to make grid
+ * @width: width input
+ * @height: hight input
+ * Return: pointer to two dim array
  */
-int main(void
+int **alloc_grid(int width, int height)
+{
+	int **mee;
+	int x, y;
+
+	if (width <= 0 || height <= 0)
+		return (NULL);
+
+	mee = malloc(sizeof(int *) * height);
+
+	if (mee == NULL)
+			return (NULL);
+
+	for (x = 0; x < height; x++)
+	{
+		mee[x] = malloc(sizeof(int) * width);
+
+		if (mee[x] == NULL)
+		{
+			for (; x >= 0; x--)
+				free(mee[x]);
+			return (NULL);
+		}
+	}
+	for (x = 0; x < height; x++)
+	{
+		for (y = 0; y < width; y++)
+			mee[x][y] = 0;
+	}
+	return (mee);
+}
