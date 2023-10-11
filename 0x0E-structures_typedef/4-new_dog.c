@@ -2,9 +2,11 @@
 #include <stdlib.h>
 /**
  * new_dog - new dog to be created
+ * dog_t - new dog to be
  * @name: name of the new dog
  * @owner: owner of new dog
  * @age: age of new dog
+ * Return: dog
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
